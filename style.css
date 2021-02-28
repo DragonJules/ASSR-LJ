@@ -1,0 +1,240 @@
+body{
+    background-color: white;
+    background-image: url(./images/fond.jpg);
+    background-size: cover;
+    /* width: 95vw; */
+}
+
+#bareduhaut{
+    margin: 0px;
+    padding: 0px;
+    /* width: 100%; */
+}
+header{
+    margin: 0px;
+    padding: 0px;  
+}
+head{
+    margin: 0px;
+    padding: 0px;
+}
+#rectangle{
+    position: absolute;
+    width: 99px;
+    height: 14px;
+    left: 200px;
+    top: 93px;
+    z-index: 2;
+
+    background: #FFFFFF;
+}
+
+#dufun{
+    position: absolute;
+    width: 77px;
+    height: 50px;
+    left: 202px;
+    top: 74px;
+    z-index:3;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#MENJF{
+    position: absolute;
+    width: 162px;
+    height: 128px;
+    left: 180px;
+    top: 10px;
+
+    background: url(logo_MEN.jpg);
+}
+
+#bare{
+    position: absolute;
+    width: 100%;
+    height: 145px;
+    left: 0px;
+    top: 0px;
+
+    background: #e6e6e6;
+}
+
+#line3{
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 0px;
+    top: 143px;
+    z-index: 0;
+    
+    box-shadow: inset 0px 3px 3px #0000007e;
+    background-color: #e0e0e0
+}
+
+#line2{
+    position: absolute;
+    width: 100%;
+    height: 0.2px;
+    left: 0px;
+    top: 142px;
+    z-index:5;
+    
+    background-color: white;
+}
+
+#line1{
+    position: absolute;
+    width: 100%;
+    height: 0.1px;
+    left: 0px;
+    top: 175px;
+    z-index: 3;
+    
+    background-color: #3333338e
+}
+
+#EDUCAPROUT{
+    position: absolute;
+    
+    height: 31px;
+    left:254.5px;
+    top: 123px;
+    z-index: 4;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19.5px;
+    line-height: 35px;
+    
+    color: #56B8AD;
+}
+
+#rectangle2{
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    left: 0px;
+    top: 145px;
+    z-index: 2;
+    
+    background: #dee0e0;
+    box-shadow: inset 0px 15px 20px #adadad;
+}
+
+#EC{
+    position: absolute;
+    width: 263px;
+    height: 90px;
+    left: 902px;   
+}
+
+#ESR{
+    position: absolute;
+    width: 234px;
+    height: 90px;
+    left: 660.5px;  
+}
+
+.ESREC{
+    position: absolute;
+    top: 18px;
+}
+
+#bvn{
+    position: absolute;
+    width: 65%;
+    height: 380px;
+    left: 17.5%;
+    top: 180px;
+    z-index: 4;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+
+#cadre{
+    position: absolute;
+    width: 70%;
+    height: 426px;
+    left: 15%;
+    top: 195px;
+    z-index: 1;
+    
+    background: #FFFFFF;
+    border: 2px solid #56B8AD;
+    box-sizing: border-box;
+}
+
+#ap{
+    position: absolute;
+    width: 75%;
+    height: 550px;
+    left: 12.5%;
+    top: 177px;
+    border-radius: 10px;
+    z-index: 0;
+    
+    background: #FFFFFF;
+}
+
+#fondimg{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    top: 172px;
+    z-index: -2;
+    
+
+    
+}
+
+#fond{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+
+    background: #FFFFFF;
+}
+
+#btnstart{
+    position: absolute;
+    width: 268.42px;
+    height: 49px;
+    left: 505px;
+    top: 646px;
+    z-index: 5;
+    
+    background: #56B8AD;
+    border-radius: 8px;
+}
+#txtstart{
+    position: absolute;
+    width: 288.16px;
+    height: 37px;
+    left: 521px;
+    top: 627px;
+    z-index: 7;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    
+    color: #FFFFFF;
+}
