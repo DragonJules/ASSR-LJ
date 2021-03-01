@@ -353,4 +353,20 @@ position: absolute;
     height: 167px;
     left: 260px;
     top: 360px;
-}   
+}  
+
+#compteurtext{
+    position: absolute;
+    width: 84px;
+    height: 86px;
+    left: 305px;
+    top: 332px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 73px;
+    line-height: 86px;
+    
+    color: #000000;
+}
